@@ -1,8 +1,4 @@
-*****
-- delete executables and add gcc compilation notes to beginnings of every lesson
-- clean up directories
-*****
-
+- go through each lesson directory to see if there should already be a timings.db in there
 - improve Reading sections and change Reading to Extra Reading
 - explain Python 2.x vs Python 3.x
 - change python to python3 in command lines in lessons
