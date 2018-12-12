@@ -10,7 +10,7 @@ NOTE: while the code here contains much of my "good" programming habits and desi
 
 Another project, "pycnumanal," is related to "pycnumanal-lessons":
 
-       - builds on the final version of the code from "pycnumanal-lesson"
+       - builds on the final version of the code from "pycnumanal-lessons"
        - is not a series of lessons, but rather my own personal effort at improving the program
        - also hosted on GitHub
 
