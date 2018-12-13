@@ -1,6 +1,6 @@
 # database: Implements the database portion of the pycnumanal application
 # 
-#    VERSION 0.12
+#    VERSION 0.13
 #
 #    - create database/tables if they don't already exist
 #    - add programs to the database

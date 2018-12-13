@@ -1,6 +1,6 @@
 # user_interface.py: pycnumanal text-based user interface system
 # 
-#    VERSION 0.12
+#    VERSION 0.13
 #
 #    - text-based menus for:
 #

@@ -1,6 +1,6 @@
 # pycnumanal: Generate/Plot excution timings of external programs for different problem sizes
 # 
-#    VERSION 0.12
+#    VERSION 0.13
 #
 #    pyc:     Python/C program
 #    numanal: timed numerical analysis routines written in C (could be other languages as well)
