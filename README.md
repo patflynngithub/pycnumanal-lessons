@@ -6,11 +6,13 @@ A Python/SQL program that, choosing from a collection of C numerical analysis pr
 
 See syllabus.doc for more details.
 
+To get started on the lessons, got to the Lesson1 directory and open the Lesson1.doc file.
+
 NOTE: while the code here contains much of my "good" programming habits and design philosophy, there are elements of the code that were designed to support the learning process for a less experienced programmer. For example, while I do not comment code lightly, there is more commenting in this code than I would normally do. Also, some of the structural decisions/implementations were done in away so as to make it easier for the learner to follow.
 
 Another project, "pycnumanal," is related to "pycnumanal-lessons":
 
        - builds on the final version of the code from "pycnumanal-lessons"
        - is not a series of lessons, but rather my own personal effort at improving the program
-       - also hosted on GitHub
+       - also hosted on my GitHub account
 
