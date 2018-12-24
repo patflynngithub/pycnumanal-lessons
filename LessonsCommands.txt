@@ -1,5 +1,8 @@
 IMPORTANT COMMANDS USED IN EACH OF THE LESSONS
 
+- I only list commands the first time they are used in
+  any of the lessons.
+
 ========================================================
 
 Lesson 1
@@ -67,15 +70,45 @@ gcc -o l2vecnorm l2vecnorm.c -std=gnu99 -lm
 Lesson 5
 --------
 
-http://www.gnu.org/software/libc/manual/html_node/CPU-Time.html
+python3 main.py
 
-python main.py
+========================================================
 
 Lesson 6
 --------
 
-https://docs.python.org/2/library/sqlite3.html
-http://sebastianraschka.com/Articles/sqlite3_database.html
-http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
-http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
-* https://pymotw.com/2/sqlite3/
+sqlite3
+
+sqlite3 timings.db <schema.sql
+
+.databases
+.tables
+.schema
+.quit
+
+insert into programs (program_name, description, cmd_line_prefix)
+            values ('l2 vector norm', 'l2 vector norm in C', 'l2vecnorm');
+
+select * from programs;
+
+insert into timings (problem_size, timing, program_name)
+            values (100, 0.000004, 'l2 vector norm' );
+
+select * from timings;
+
+select * from timings inner join programs on
+            programs.program_name = timings.program_name;
+
+select * from timings inner join programs on
+            programs.program_name = timings.program_name
+            where programs.program_name = 'l2 vector norm';
+
+========================================================
+
+Lesson 12
+---------
+
+gcc -o linear_timing linear_timing.c -std=gnu99 -lm
+gcc -o nlogn_timing nlogn_timing.c -std=gnu99 -lm
+gcc -o nsquared_timing nsquared_timing.c -std=gnu99 -lm
+
