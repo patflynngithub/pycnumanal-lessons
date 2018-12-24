@@ -25,7 +25,7 @@ Lesson 7 -  Python interaction with SQLite
 Lesson 8 -  Plotting in Python: matplotlib.pyplot
 --------
 
-Lesson 9 -  pycnumanal version 0.10 – Adding/displaying programs to/from the database
+Lesson 9 -  pycnumanal version 0.10 – Adding/displaying programs data to/from the database
 --------
 
 Lesson 10 - pycnumanal version 0.11 – “Separation of concerns”
