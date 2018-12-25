@@ -1,5 +1,4 @@
 - go through each lesson directory to see if there should already be a timings.db in there
-- explain Python 2.x vs Python 3.x
 - check progression of ToDo.txt and DevelopmentNotes.txt
 - note about how we're using Git/GitHub in a non-standard way
 - does one need to be in the pycnumanal directory to when doing a "git add -A ."?
